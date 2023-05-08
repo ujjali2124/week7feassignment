@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Your Review</title>
+   </head>
+   <style>
+    div.center {
+        margin-left: auto; 
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+    }
+    .header {
+        padding: 10px;
+        text-align: center;
+        background: #092923;
+        color: white;
+        font-size: 10px;
+        margin-bottom: 10%;
+    }
+    
+   </style>
+	
+   <body style="background-color:#82ccbe;">
+    <div class="header">
+        <h1>Submit Your Review</h1>
+    </div>
+    <div class="center">
+      <form >
+        <label for="fname">First name:</label><br><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter Name" required><br><br>
+        <label for="Gender">Gender:</label><br><br>
+        <input type="radio" id="Male" name="fav_language" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="fav_language" value="Female">
+        <label for="Female">Female</label><br><br>
+        <label for="description">Description:</label><br><br>
+        <textarea rows = "5" cols = "50" name = "description" placeholder="Enter Description" required> </textarea><br><br>
+        <button onclick="document.location='thankYou.html'">Submit</button>
+        <button onclick="document.location='index.html'">Cancel</button>
+      </form>
+    </div>
+   </body>
+	
+</html>
